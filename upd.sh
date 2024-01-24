@@ -1,6 +1,6 @@
 #!/bin/bash
 base='/usr/share/momo-19.11.0_raspbian-buster_armv7/html/'
-git='https://github.com/isk727/momo/blob/main/'
+git='https://raw.githubusercontent.com/isk727/momo/main/'
 today=`date "+%Y%m%d%H%M%S"`
 wget ${git}p2p.html
 wget ${git}script.js
