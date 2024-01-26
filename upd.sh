@@ -26,8 +26,6 @@ sudo mv ${base}js/script.js ${base}js/script.js.${today}
 sudo mv script.js ${base}js/script.js
 sudo mv ${base}js/scriptv.js ${base}js/scriptv.js.${today}
 sudo mv scriptv.js ${base}js/scriptv.js
-sudo mv ${base}js/script.js ${base}js/script.js.${today}
-sudo mv script.js ${base}js/script.js
 sudo mv ${base}img/sound_off.png ${base}img/sound_off.png.${today}
 sudo mv sound_off.png ${base}img/sound_off.png
 sudo mv ${base}img/sound_on.png ${base}img/sound_on.png.${today}
