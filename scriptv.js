@@ -8,5 +8,9 @@ $("#sound").on('click', function () {
     video.muted = true;
   }
 });
-connect();
-video.className = "rotate90";
+//connect();
+//video.className = "rotate90";
+window.setTimeout(function(){
+  connect();
+  video.className = "rotate90";
+}, 1000);
