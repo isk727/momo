@@ -2,6 +2,7 @@
 base='/usr/share/momo-19.11.0_raspbian-buster_armv7/html/'
 git='https://raw.githubusercontent.com/isk727/momo/main/'
 today=`date "+%Y%m%d%H%M%S"`
+wget ${git}loading.gif
 wget ${git}p2p.html
 wget ${git}p2pv.html
 wget ${git}script.js
@@ -10,6 +11,7 @@ wget ${git}sound_off.png
 wget ${git}sound_on.png
 wget ${git}style.css
 wget ${git}stylev.css
+chmod 777 loading.gif
 chmod 777 p2p.html
 chmod 777 p2pv.html
 chmod 777 script.js
@@ -18,6 +20,8 @@ chmod 777 sound_off.png
 chmod 777 sound_on.png
 chmod 777 style.css
 chmod 777 stylev.css
+sudo mv ${base}img/loading.gif ${base}img/loading.gif.${today}
+sudo mv loading.gif ${base}img/loading.gif
 sudo mv ${base}p2p.html ${base}p2p.html.${today}
 sudo mv p2p.html ${base}p2p.html
 sudo mv ${base}p2pv.html ${base}p2pv.html.${today}
