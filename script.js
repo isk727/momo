@@ -8,4 +8,7 @@ $("#sound").on('click', function () {
     video.muted = true;
   }
 });
-connect();
+window.setTimeout(function(){
+  connect();
+}, 1000);
+//connect();
