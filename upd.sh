@@ -9,6 +9,8 @@ wget ${git}script.js
 wget ${git}scriptv.js
 wget ${git}sound_off.png
 wget ${git}sound_on.png
+wget ${git}sp_off.png
+wget ${git}sp_on.png
 wget ${git}style.css
 wget ${git}stylev.css
 chmod 777 loading.gif
@@ -18,6 +20,8 @@ chmod 777 script.js
 chmod 777 scriptv.js
 chmod 777 sound_off.png
 chmod 777 sound_on.png
+chmod 777 sp_off.png
+chmod 777 sp_on.png
 chmod 777 style.css
 chmod 777 stylev.css
 sudo mv ${base}img/loading.gif ${base}img/loading.gif.${today}
@@ -34,6 +38,10 @@ sudo mv ${base}img/sound_off.png ${base}img/sound_off.png.${today}
 sudo mv sound_off.png ${base}img/sound_off.png
 sudo mv ${base}img/sound_on.png ${base}img/sound_on.png.${today}
 sudo mv sound_on.png ${base}img/sound_on.png
+sudo mv ${base}img/sp_off.png ${base}img/sp_off.png.${today}
+sudo mv sp_off.png ${base}img/sp_off.png
+sudo mv ${base}img/sp_on.png ${base}img/sp_on.png.${today}
+sudo mv sp_on.png ${base}img/sp_on.png
 sudo mv ${base}css/style.css ${base}css/style.css.${today}
 sudo mv style.css ${base}css/style.css
 sudo mv ${base}css/stylev.css ${base}css/stylev.css.${today}
