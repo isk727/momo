@@ -1,14 +1,13 @@
 const video = document.getElementById('remote_video');
 $("#sound").on('click', function () {
   if(video.muted){
-    $("#speaker").attr('src', 'img/sound_on.png');
+    $("#speaker").attr('src', 'img/sp_on.png');
     video.muted = false;
   }else{
-    $("#speaker").attr('src', 'img/sound_off.png');
+    $("#speaker").attr('src', 'img/sp_off.png');
     video.muted = true;
   }
 });
-window.setTimeout(function(){
+window.setTimeout(function() {
   connect();
 }, 1000);
-//connect();
