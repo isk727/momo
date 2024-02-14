@@ -12,6 +12,7 @@ body { margin: 0px 0px 0px 0px; }
 #speaker {
   width: 46px;
   height: 46px;
+  visibility: hidden;
 }
 .container{
  /* background-color: black; */
