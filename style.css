@@ -1,36 +1,30 @@
-body { 
-  margin: 0px 0px 0px 0px;
-}
-*:focus {
-  outline: none;
-}
+body { margin: 0px 0px 0px 0px; }
 #remote_video {
   width: 100%;
   height :100vh;
   position: absolute;
   margin: auto;
 }
-
-.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#sound {
+  background: transparent; 
+  border: none;
 }
-
-#start_button {
-  background: url(../img/if_play_normal.png) left top no-repeat;
-  width: 64px;
-  height: 64px;
-  border: 0;
+#speaker {
+  width: 46px;
+  height: 46px;
 }
 .container{
+ /* background-color: black; */
+  height: 100vh;
+  display: flex;
+  justify-content: right; /* */
+  align-items: right;/* */
   position: absolute;
-  left: 0; top: 20%;
-  width: 100%; height: 90%;
+  left: 0; top: 22%;
+  width: 100%; 
+  height: 10%; 
   overflow: visible;
   z-index: 12345;
   opacity: 10;
   transform: scale(.98, .98);
 }
-
