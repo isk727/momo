@@ -11,4 +11,5 @@ $("#sound").on('click', function () {
 window.setTimeout(function() {
   connect();
   video.className = "rotate90";
+  $("#sound").css('visibility', 'visible');
 }, 1000);
