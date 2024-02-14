@@ -10,4 +10,5 @@ $("#sound").on('click', function () {
 });
 window.setTimeout(function() {
   connect();
+  $("#sound").css('visibility', 'visible');
 }, 1000);
